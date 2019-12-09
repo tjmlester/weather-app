@@ -33,7 +33,7 @@ class App extends Component {
     const location = this.state.location;
     try {
       const data = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`
       );
       const json = await data.json();
 
