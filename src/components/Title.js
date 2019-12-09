@@ -6,7 +6,7 @@ const Title = () => (
   <div align="center">
     <Typography variant="h3">Weather App</Typography>
     <Typography variant="overline">
-      Find the current temperature of a city
+      Find the current weather of a city
     </Typography>
   </div>
 );
